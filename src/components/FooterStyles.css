@@ -11,7 +11,12 @@
 .icon{
     padding: 0 3rem 0 3rem;
 }
+
 .icon i{
   color:aliceblue;
     font-size: 40px;
+}
+.iconhover:hover{
+    font-size: 3.5rem;
+    transition: .5s;
 }
