@@ -4,7 +4,7 @@ import { SiJavascript, SiNodedotjs, SiReact, SiHtml5, SiCss3, SiBootstrap,  SiMo
 
 export default function Skills() {
     return (
-        <div className="upper2">
+        <div className="upper2" id='skills'>
             <div className="container ">
                 <div className="row">
 

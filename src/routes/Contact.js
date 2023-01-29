@@ -24,7 +24,7 @@ const Contact = () => {
 
 
   return (
-    <div className="container">
+    <div className="container" id='contact'>
        <Fade left>
       <h1 className="text-center my-5">Get in Touch</h1>
       <form className="my-5"  ref={form} onSubmit={sendEmail}>

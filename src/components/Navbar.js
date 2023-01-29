@@ -27,11 +27,16 @@ const handlescrollA =()=>{
   document.getElementById('about').scrollIntoView()
 }
 const handlescrollP =()=>{
-  // document.getElementById('about').scrollIntoView()
+  document.getElementById('project').scrollIntoView()
 }
 const handlescrollC =()=>{
-  // document.getElementById('about').scrollIntoView()
+  document.getElementById('contact').scrollIntoView()
 }
+const handlescrollS=()=>{
+  document.getElementById('skills').scrollIntoView()
+}
+
+
 
   return( <div className={color?'Navbar-bg Navbar':'Navbar'}>
        <a to='/'><h1 className="nav-brand">Portfolio</h1></a>
@@ -47,6 +52,9 @@ const handlescrollC =()=>{
         </li>
         <li  >
           <a className="item"  onClick={handlescrollC}>Contact</a>
+        </li>
+        <li  >
+          <a className="item"  onClick={handlescrollS}>Skills</a>
         </li>
        </ul>
        <div className="hamberger" onClick={handleclick }>

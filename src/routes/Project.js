@@ -19,7 +19,7 @@ import React from 'react'
 const Project = () => {
   return (
 
-    <div className="mask2">
+    <div className="mask2" id='project'>
       <img className='back_class back3 backdrop ' src={back} alt="" />
       <div className="container ">
 
