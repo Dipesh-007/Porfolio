@@ -1,0 +1,17 @@
+.footer{
+    width: 100%;
+    height: 18rem;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #03001C;
+
+    justify-content: center;
+    align-items: center;
+}
+.icon{
+    padding: 0 3rem 0 3rem;
+}
+.icon i{
+  color:aliceblue;
+    font-size: 40px;
+}
