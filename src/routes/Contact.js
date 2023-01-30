@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Fade from 'react-reveal/Fade';
-
+import Zoom from 'react-reveal/Zoom';
+import contact from './contact1.jpg'
 const Contact = () => {
 
 
@@ -25,6 +26,9 @@ const Contact = () => {
 
   return (
     <div className="container" id='contact'>
+         <div className="row">
+       
+       <div className="col-lg-6 col-sm-12">
        <Fade left>
       <h1 className="text-center my-5">Get in Touch</h1>
       <form className="my-5"  ref={form} onSubmit={sendEmail}>
@@ -47,6 +51,11 @@ const Contact = () => {
       </div>
       </form>
       </Fade>
+      </div>
+      <div className="col-lg-6 col-sm-12">
+      <img src={contact} className='back_class' />
+      </div>
+      </div>
     </div>
     )
 };
